@@ -11,5 +11,5 @@ def superiorElements(a : List[int]) -> List[int]:
             ans.append(a[i])
         maxi=max(maxi,a[i])
 
-    return sorted(ans)
+    return ans
     pass
